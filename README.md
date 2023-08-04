@@ -38,7 +38,7 @@ To run the Contact API, you need the following software installed on your machin
    ```
     npm start
 
-    The API server will be running at http://localhost:8000.
++ The API server will be running at http://localhost:8000.
 
 ## Contributing
 
