@@ -18,16 +18,16 @@ To run the Contact API, you need the following software installed on your machin
 
 1. Clone the repository to your local machine:
 
-    ```git clone https://github.com/your_username/contact-api.git
+    git clone https://github.com/your_username/contact-api.git
 
 
 2. Navigate to the project directory:
 
-    ```cd contact-api
+    cd contact-api
 
 3. Install the dependencies:
 
-    ```npm install
+    npm install
 
 4. Configure the Email Account:
 
@@ -35,7 +35,7 @@ To run the Contact API, you need the following software installed on your machin
     + Save the email credentials and app-specific password in .env with your Gmail account details.
 
 5. Start the server:
-    ```npm start
+    npm start
 
     The API server will be running at http://localhost:8000.
 
