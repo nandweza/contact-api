@@ -32,7 +32,7 @@ exports.submitMessage = (req, res) => {
             console.log(error);
             res.status(500).json({ error: 'Failed to send email' });
         } else {
-            console.log('Email sent: ' + info.response);
+            // console.log('Email sent: ' + info.response);
             // res.json({ message: 'Email sent successfully' });
             res.redirect('https://nandweza.github.io/allan/');
         }
