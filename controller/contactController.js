@@ -35,6 +35,6 @@ exports.submitMessage = (req, res) => {
             console.log('Email sent: ' + info.response);
             res.json({ message: 'Email sent successfully' });
         }
-        response.send('message submitted');
+        response.redirect('https://nandweza.github.io/allan/');
     });
 }
