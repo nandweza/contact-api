@@ -21,7 +21,7 @@ exports.submitMessage = (req, res) => {
     // Compose the email
     const mailOptions = {
         from: email,
-        to: 'allannandweza@gmail.com',
+        to: process.env.EMAIL,
         subject: `Contact Form - ${subject}`,
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
     };
